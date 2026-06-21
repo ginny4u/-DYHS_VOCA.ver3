@@ -238,13 +238,13 @@
   <section class="screen hero" id="start">
     <span class="eyebrow">뼈를 갈았다.. 열심히 해라💢</span>
     <h1>🍀진희쌤이랑,<br/><span class="em">다의어 마스터하기🍀</span></h1>
-    <p class="lead">우블, 만세전, 관상가로 다의어 문맥 연습</p>
+    <p class="lead">우블, 만세전, 이상자대로 다의어 문맥 연습</p>
 
     <div class="label">작품 고르기</div>
     <div class="chips" id="scopeChips">
       <button class="chip" data-scope="all" aria-pressed="true">전체 <span class="n" id="cAll"></span><span class="tick"></span></button>
       <button class="chip" data-scope="blues" aria-pressed="false">우리들의 블루스 · 노희경 <span class="n" id="cBlues"></span><span class="tick"></span></button>
-      <button class="chip" data-scope="gwansang" aria-pressed="false">이상한 관상가 · 이규보 <span class="n" id="cGwan"></span><span class="tick"></span></button>
+      <button class="chip" data-scope="gwansang" aria-pressed="false">이상한 관상가와의 대화 · 이규보 <span class="n" id="cGwan"></span><span class="tick"></span></button>
       <button class="chip" data-scope="manse" aria-pressed="false">만세전 · 염상섭 <span class="n" id="cManse"></span><span class="tick"></span></button>
     </div>
 
@@ -1131,10 +1131,10 @@ function finish(){
 
   const pct=Math.round(right/total*100);
   let line;
-  if(pct===100) line="완벽합니다. 다섯 문항 모두 정확해요.";
-  else if(pct>=80) line="잘했어요. 한두 개만 더 살피면 완성입니다.";
-  else if(pct>=40) line="좋아요. 헷갈린 뜻은 오답노트에서 다시 봐요.";
-  else line="천천히. 오답노트의 뜻 구분부터 익혀 봐요.";
+  if(pct===100) line="완벽합니다. 1등급이 보여^^❤️‍🔥";
+  else if(pct>=80) line="실수는....성공의 어머니ㅎㅎ😅";
+  else if(pct>=40) line="오답을 열심히 하자...!🔥";
+  else line="답이 없습니다...ㅅㄱ하세요..ㅜㅜ";
   $("#resLine").textContent=line;
 
   const newlyWrong = mode==="note" ? [] : sessionWrong;
